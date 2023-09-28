@@ -1,1 +1,0 @@
-select abc from datatable;
