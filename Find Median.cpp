@@ -6,15 +6,6 @@ string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
 
-
-
-/*
- * Complete the 'findMedian' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts INTEGER_ARRAY arr as parameter.
- */
-// Partition the array and return the pivot index
 int partition(std::vector<int>& arr, int low, int high) {
     int pivot = arr[high]; // Choose the last element as the pivot
     int i = low - 1; // Index of the smaller element
