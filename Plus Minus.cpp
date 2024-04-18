@@ -2,9 +2,8 @@
 #include <iomanip> // For std::setprecision
 
 void plusMinus(int arr[], int n) {
-    int positiveCount = 0;
-    int negativeCount = 0;
-    int zeroCount = 0;
+    int positiveCount = 0, negativeCount = 0, zeroCount = 0;
+
 
     for (int i = 0; i < n; i++) {
         if (arr[i] > 0)
