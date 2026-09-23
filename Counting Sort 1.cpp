@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-// Function to perform counting sort on an array of integers
 
 std::vector<int> countingSort(std::vector<int> arr) {
     std::vector<int> freq(100, 0); // Initialize frequency array with 100 zeros
