@@ -1,12 +1,9 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-# Complete the catAndMouse function below.
 def catAndMouse(x, y, z):
     
     xx = abs(z - x)
